@@ -8,6 +8,9 @@ This project involves digitizing **280,000 historical mortgage document scans** 
 - **Custom Entity Extraction Pipeline**: Developed a robust **3-stage** pipeline to extract entities and ensure high accuracy across **.TIF** FHA and VHA documents.  
 
 ### Pipeline Stages  
+
+<img width="355" alt="Screenshot 2025-01-14 at 6 39 08 PM" src="https://github.com/user-attachments/assets/56e41edd-e72c-4644-bb3b-c8784d301133" />
+
 1. **Stage #1: Open-Source OCR**  
    - Utilized **docTR**, a state-of-the-art **two-step** (CNN + cRNN) deep-learning-based OCR model to extract text from **.TIF** scans.  
 
