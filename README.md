@@ -7,16 +7,16 @@ This project involves digitizing **280,000 historical mortgage document scans** 
 ## 🛠️ Key Features  
 - **Custom Entity Extraction Pipeline**: Developed a robust **3-Stage** pipeline to extract entities and ensure high accuracy across **.TIF** FHA and VHA documents.
 ### Pipeline Stages 
-- **#1 Open-Source OCR**: Used **docTR**, a state-of-the-art **two-step** (CNN + cRNN) deep-learning-based OCR model, to extract text from .TIF scans. 
-- **#2 Prompt-Engineered LLMs**: Tested Prompt-Engineered **Llama**, **Mistral**, **OpenAI**, and **NVIDIA LLMs** for contextual mortgage understanding and JSON based Entity Extraction. 
-- **#3 **Sanity Checks**: Designed fail-safes to ensure correct JSON output strucutres, completeness of extracted entities, and flag model hallucination. 
-- **#4 **Validation**: Designed functions to test pipeline accuracy against ground truth using relevant metrics (Levenshtein Distance) - across features and documents.
+- **Stage #1 Open-Source OCR**: Used **docTR**, a state-of-the-art **two-step** (CNN + cRNN) deep-learning-based OCR model, to extract text from .TIF scans. 
+- **Stage #2 Prompt-Engineered LLMs**: Tested Prompt-Engineered **Llama**, **Mistral**, **OpenAI**, and **NVIDIA LLMs** for contextual mortgage understanding and JSON based Entity Extraction. 
+- **Stage #3 Sanity Checks**: Designed fail-safes to ensure correct JSON output strucutres, completeness of extracted entities, and flag model hallucination. 
+- **Stage #4 Validation**: Designed functions to test pipeline accuracy against ground truth using relevant metrics (Levenshtein Distance) - across features and documents.
 
 ---
 
 ## 🔍 Objectives  
-1. **Digitize and Preserve Historical Data**: Convert legacy mortgage documents into machine-readable formats for research and analysis.  
-2. **Ensure Accessibility**: Create a publicly available dataset to support academic and societal studies on redlining.  
+1. **Digitize and Preserve Historical Data**: Convert legacy mortgage documents into machine-readable formats for research and analysis - enabling the largest quantitiative research on redlining to-date.  
+2. **Ensure Accessibility**: Create a publicly available dataset and code to support academic and societal studies on redlining.  
 3. **Automate Processes**: Eliminate manual data entry with advanced AI tools, improving efficiency and reducing costs.
 
 ---
@@ -25,9 +25,12 @@ This project involves digitizing **280,000 historical mortgage document scans** 
 ### **Computer Vision & OCR**  
 - **docTR**: Open-source deep-learning OCR for high-accuracy text recognition from scanned images.  
 
-### **LLMs & GenAI**  
-- **Llama**: Fine-tuned for contextual entity extraction.  
-- **Mistral & NVIDIA LLMs**: Utilized for advanced language understanding and enhancing accuracy in edge cases.  
+### **LLMs & GenAI Tools Tested**  
+- **OpenAI**: 4O-Mini & 4o
+- **Llama**: 3.1 8b
+- **Mistral AI**: NeMo 12B
+- **NVIDIA**: Nemotron 8b
+- **NuMind**: NuExtract
 
 ### **Programming & Frameworks**  
 - Python (for scripting and pipeline development)  
@@ -36,19 +39,23 @@ This project involves digitizing **280,000 historical mortgage document scans** 
 ---
 
 ## 🏆 Impact  
-- **Cost Savings**: Estimated savings of **$300,000** by replacing manual digitization efforts with an automated pipeline.  
-- **Data Accessibility**: Enabled researchers and policymakers to analyze redlining practices through a comprehensive, digitized dataset.  
-- **Scalable Workflow**: Built a workflow that can be adapted for similar document digitization projects in the future.
+
+
+- **Cost Savings**:  
+  - Estimated total savings of **$300,000** by replacing manual digitization.  
+  - **Cost per document**: **$0.006**.  
+  - **Total cost for 280,000 documents**: **$1,773**.  
+- **Model Accuracy**: **87%** accuracy on a test set of 25 documents using **OpenAI GPT-4o**.  
+- **Processing Efficiency**: Each document processed in **26 seconds**.  
 
 ---
 
 ## 🚀 Future Scope  
-- Expand the pipeline to handle other historical datasets, including handwritten documents.  
-- Integrate advanced post-processing techniques for automated data validation and error correction.  
+- Deploy the pilot-testing approach across the corpus of 280,000 documents. 
+- Initiate quantitative research on redlining from resulting database. 
 - Collaborate with other universities and institutions to digitize similar archives.  
 
 ---
-
 ## 📫 Contact  
 For more details, reach out to:  
 - **Uday Sapra**  
