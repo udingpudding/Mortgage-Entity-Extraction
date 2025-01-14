@@ -20,7 +20,7 @@ This project involves digitizing **280,000 historical mortgage document scans** 
 
 ### Pipeline Stages  
 
-
+---
 
 <p align="center">
 
@@ -31,7 +31,7 @@ This project involves digitizing **280,000 historical mortgage document scans** 
   
 </p>
 
-
+---
 
 1. **Text Extraction using Open-Source OCR**  
    - Utilized **docTR**, a state-of-the-art **two-step** (CNN + cRNN) deep-learning-based OCR model to extract text from **.TIF** scans.  
