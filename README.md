@@ -32,8 +32,11 @@ This project involves digitizing **280,000 historical mortgage document scans** 
 
 
 ## 🔧 Tools & Technologies  
-### **Computer Vision & OCR**  
-- **docTR**: Open-source deep-learning OCR for high-accuracy text recognition from scanned images.  
+
+### **Computer Vision & OCR Tested **  
+- **docTR**: Open-source deep-learning OCR for high-accuracy text recognition from scanned images.
+- **easyOCR**
+- **Google Tesseract** 
 
 ### **LLMs & GenAI Tools Tested**  
 - **OpenAI**: 4O-Mini & 4o
