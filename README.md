@@ -10,7 +10,7 @@ This project involves digitizing **280,000 historical mortgage document scans** 
 ### Pipeline Stages  
 
 <p align="center">
-  <img width="383" alt="Screenshot 2025-01-14 at 6 39 52 PM" src="https://github.com/user-attachments/assets/5136d5a6-9cb2-4b66-8f88-6ebe90435313" />
+  <img width="422" alt="Screenshot 2025-01-14 at 6 42 11 PM" src="https://github.com/user-attachments/assets/0f4c33ae-dafb-4e41-9697-9b19ac9c6e61" />
 </p>
 
 
