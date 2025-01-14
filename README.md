@@ -9,21 +9,24 @@ This project involves digitizing **280,000 historical mortgage document scans** 
 
 ### Pipeline Stages  
 
-<img width="355" alt="Screenshot 2025-01-14 at 6 39 08 PM" src="https://github.com/user-attachments/assets/56e41edd-e72c-4644-bb3b-c8784d301133" />
+<p align="center">
+  <img width="383" alt="Screenshot 2025-01-14 at 6 39 52 PM" src="https://github.com/user-attachments/assets/5136d5a6-9cb2-4b66-8f88-6ebe90435313" />
+</p>
 
-1. **Stage #1: Open-Source OCR**  
+
+1.  **Text Extraction using Open-Source OCR**  
    - Utilized **docTR**, a state-of-the-art **two-step** (CNN + cRNN) deep-learning-based OCR model to extract text from **.TIF** scans.  
 
-2. **Stage #2: Prompt-Engineered LLMs**  
+2.  **Entity Extracing using Prompt-Engineered LLMs**  
    - Tested **Llama**, **Mistral**, **OpenAI**, and **NVIDIA LLMs** to enhance contextual understanding of mortgages and perform **JSON-based entity extraction**.  
 
-3. **Stage #3: Sanity Checks**  
+3. **Sanity Checks**  
    - Designed fail-safes to ensure:
      - Correct **JSON output structures**.  
      - Completeness of extracted entities.  
      - Flagging of model hallucinations.  
 
-4. **Stage #4: Validation**  
+4. **Pipeline Validation**  
    - Implemented validation functions to assess pipeline accuracy against ground truth data using relevant metrics (e.g., **Levenshtein Distance**) across features and documents.
 
 ## 🔍 Objectives  
