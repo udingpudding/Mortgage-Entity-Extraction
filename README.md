@@ -1,22 +1,22 @@
 # NYU Redlining Lab: Digitizing Historical Mortgage Documents  
 
 ## 📜 Project Overview  
-This project involves digitizing **280,000 historical mortgage document scans** (1930–1970) as part of the NYU Redlining Lab. The goal was to create a **publicly available dataset** by leveraging **computer vision** and **Generative AI (GenAI)** techniques for entity extraction, eliminating the need for manual digitization and achieving an estimated **cost saving of $300,000** for NYU.  
+This project involves digitizing **280,000 historical mortgage document scans** (1930–1970) using modern Data Science methods for NYU's Redlining Research Lab. We seek to eliminate the need for manual digitization of documents used for research - achieving an estimated internal **cost saving of $300,000**. The digitization process leverages **Computer Vision** and **GenAI** techniques to build an efficient entity extraction pipeline. The overarching goal is to create a **publicly available dataset of VHA and FHA documents using the pipeline and publish the codebase** for academic research, replicability, and policy making. 
 
 ## 🔍 Objectives  
 
-1. **Digitize and Preserve Historical Data**  
-   - Convert legacy mortgage documents into machine-readable formats for research and analysis - enabling the largest quantitative research on redlining to-date.  
+1. **Digitize Historical Data for Quantitative Research**  
+   - Convert legacy mortgage documents into machine-readable formats for downstream research and analysis - enabling the largest quantitative research on redlining to-date.  
 
 2. **Ensure Accessibility**  
    - Create a publicly available dataset and code to support academic and societal studies on redlining.  
 
-3. **Automate Processes**  
-   - Eliminate manual data entry with advanced AI tools, improving efficiency and reducing costs.
+3. **Automate Processes to Save Cost**  
+   - Eliminate manual data entry budgets with the pipeline
 
-## 🛠️ Key Features  
+## 🛠️ Final Pilot Testing Outcome
 
-- **Custom Entity Extraction Pipeline**: Developed a robust **3-stage** pipeline to extract entities and ensure high accuracy across **.TIF** FHA and VHA documents.  
+- **Custom Entity Extraction Pipeline**: Developed a robust **3-stage** pipeline to extract entities and ensure high accuracy across **.TIF** document formats.  
 
 ### Pipeline Stages  
 
@@ -43,7 +43,7 @@ This project involves digitizing **280,000 historical mortgage document scans** 
    - Designed fail-safes to ensure:
      - Correct **JSON output structures**.  
      - Completeness of extracted entities.  
-     - Flagging of model hallucinations.  
+     - Flagging model hallucinations.  
 
 4. **Pipeline Validation**  
    - Implemented validation functions to assess pipeline accuracy against ground truth data using relevant metrics (e.g., **Levenshtein Distance**) across features and documents.
@@ -69,9 +69,9 @@ This project involves digitizing **280,000 historical mortgage document scans** 
 ## 🏆 Impact  
 
 - **Cost Savings**:  
-  - Estimated total savings of **$300,000** by replacing manual digitization.  
-  - **Cost per document**: **$0.006**.  
-  - **Total cost for 280,000 documents**: **$1,773**.  
+  - Estimated Total Savings of **$300,000** by replacing manual digitization.  
+  - **Cost per Document**: **$0.006**.  
+  - **Total Projected Cost for 280,000 Documents**: **$1,773**.  
 
 - **Model Accuracy**: **87%** accuracy on a test set of 25 documents using **OpenAI GPT-4o**.  
 - **Processing Efficiency**: Each document processed in **26 seconds**.  
