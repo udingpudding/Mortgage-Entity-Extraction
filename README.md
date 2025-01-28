@@ -18,7 +18,7 @@ This project involves digitizing **280,000 historical mortgage document scans** 
 
 - **Custom Entity Extraction Pipeline**: Developed a robust **3-stage** pipeline to extract entities and ensure high accuracy across **.TIF** document formats.  
 
-### Pipeline Stages  
+### Pipeline Stages - Example Notebooks follow the Same Order
 
 ---
 
