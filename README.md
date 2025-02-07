@@ -57,7 +57,7 @@ This project involves digitizing **280,000 historical mortgage document scans** 
 - **Google Tesseract**  
 
 ### **LLMs & GenAI Tools Tested**  
-- **OpenAI**: 4O-Mini & 4o  
+- **OpenAI**: 4o-Mini & 4o  
 - **Llama**: 3.1 8b  
 - **Mistral AI**: NeMo 12B  
 - **NVIDIA**: Nemotron 8b  
